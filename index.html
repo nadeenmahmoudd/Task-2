@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <img src="images/8116 1 (1).png" alt="Image 6" class="slide" onclick="openFullscreen(this)">
+            <img src="images/solar-panels-meadow 1.png" alt="Image 2" class="slide" onclick="openFullscreen(this)">
+            <img src="images/solar-panels-meadow 2.png" alt="Image 3" class="slide" onclick="openFullscreen(this)">
+            <img src="images/solar-panels-meadow 2 (1).png" alt="Image 4" class="slide" onclick="openFullscreen(this)">
+            <img src="images/8116 1.png" alt="Image 5" class="slide" onclick="openFullscreen(this)">
+            <img src="images/solar-panels-meadow 2 (2).png" alt="Image 6" class="slide" onclick="openFullscreen(this)">
+
+        </div>
+        <!-- <figure class="slide">
+            <img src="images/solar-panels-meadow 1.png" alt="Image 2" onclick="openFullscreen(this)">
+            <figcaption class="caption">Solar Panels Meadow 1</figcaption>
+        </figure>
+        <figure class="slide">
+            <img src="images/solar-panels-meadow 2.png" alt="Image 3" onclick="openFullscreen(this)">
+            <figcaption class="caption">Solar Panels Meadow 2</figcaption>
+        </figure>
+        <figure class="slide">
+            <img src="images/solar-panels-meadow 2 (1).png" alt="Image 4" onclick="openFullscreen(this)">
+            <figcaption class="caption">Solar Panels Meadow 2 (1)</figcaption>
+        </figure>
+        <figure class="slide">
+            <img src="images/8116 1.png" alt="Image 5" onclick="openFullscreen(this)">
+            <figcaption class="caption">Image 8116 1</figcaption>
+        </figure>
+        <figure class="slide">
+            <img src="images/solar-panels-meadow 2 (2).png" alt="Image 6" onclick="openFullscreen(this)">
+            <figcaption class="caption">Solar Panels Meadow 2 (2)</figcaption>
+        </figure> -->
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+
+    </div>
+    <div id="fullscreen" class="fullscreen">
+        <span class="close" onclick="closeFullscreen()">&times;</span>
+        <img id="fullscreenImage" src="">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
