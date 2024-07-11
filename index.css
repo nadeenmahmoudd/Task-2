@@ -26,6 +26,14 @@ body {
     min-width: 100%;
     cursor: pointer;
 }
+.slide img{
+    margin-left: 150px;
+    width: 400px;
+    height: 400px;
+}
+.caption{
+    margin-left: 320px;
+}
 
 button {
     position: absolute;

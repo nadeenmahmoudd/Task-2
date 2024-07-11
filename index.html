@@ -8,46 +8,40 @@
 </head>
 <body>
     <div class="slider">
-        <div class="slides">
-            <img src="images/8116 1 (1).png" alt="Image 6" class="slide" onclick="openFullscreen(this)">
-            <img src="images/solar-panels-meadow 1.png" alt="Image 2" class="slide" onclick="openFullscreen(this)">
-            <img src="images/solar-panels-meadow 2.png" alt="Image 3" class="slide" onclick="openFullscreen(this)">
-            <img src="images/solar-panels-meadow 2 (1).png" alt="Image 4" class="slide" onclick="openFullscreen(this)">
-            <img src="images/8116 1.png" alt="Image 5" class="slide" onclick="openFullscreen(this)">
-            <img src="images/solar-panels-meadow 2 (2).png" alt="Image 6" class="slide" onclick="openFullscreen(this)">
-
-        </div>
-        <!-- <figure class="slide">
+        <figure class="slide">
+            <img src="images/8116 1 (1).png" alt="Image 1" onclick="openFullscreen(this)">
+            <figcaption class="caption">Image 1</figcaption>
+        </figure>
+        <figure class="slide">
             <img src="images/solar-panels-meadow 1.png" alt="Image 2" onclick="openFullscreen(this)">
-            <figcaption class="caption">Solar Panels Meadow 1</figcaption>
+            <figcaption class="caption">Image 2</figcaption>
         </figure>
         <figure class="slide">
             <img src="images/solar-panels-meadow 2.png" alt="Image 3" onclick="openFullscreen(this)">
-            <figcaption class="caption">Solar Panels Meadow 2</figcaption>
+            <figcaption class="caption">Image 3</figcaption>
         </figure>
         <figure class="slide">
             <img src="images/solar-panels-meadow 2 (1).png" alt="Image 4" onclick="openFullscreen(this)">
-            <figcaption class="caption">Solar Panels Meadow 2 (1)</figcaption>
+            <figcaption class="caption">Image 4</figcaption>
         </figure>
         <figure class="slide">
             <img src="images/8116 1.png" alt="Image 5" onclick="openFullscreen(this)">
-            <figcaption class="caption">Image 8116 1</figcaption>
+            <figcaption class="caption">Iamge 5</figcaption>
         </figure>
         <figure class="slide">
             <img src="images/solar-panels-meadow 2 (2).png" alt="Image 6" onclick="openFullscreen(this)">
-            <figcaption class="caption">Solar Panels Meadow 2 (2)</figcaption>
-        </figure> -->
+            <figcaption class="caption">Image 6</figcaption>
+        </figure>
         <button class="prev" onclick="prevSlide()">&#10094;</button>
         <button class="next" onclick="nextSlide()">&#10095;</button>
     </div>
-    <div class="dots">
-        <span class="dot" onclick="currentSlide(0)"></span>
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <span class="dot" onclick="currentSlide(4)"></span>
-        <span class="dot" onclick="currentSlide(5)"></span>
-
+    <ul class="dots">
+        <li class="dot" onclick="currentSlide(0)"></li>
+        <li class="dot" onclick="currentSlide(1)"></li>
+        <li class="dot" onclick="currentSlide(2)"></li>
+        <li class="dot" onclick="currentSlide(3)"></li>
+        <li class="dot" onclick="currentSlide(4)"></li>
+        <li class="dot" onclick="currentSlide(5)"></li>
     </div>
     <div id="fullscreen" class="fullscreen">
         <span class="close" onclick="closeFullscreen()">&times;</span>
